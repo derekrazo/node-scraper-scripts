@@ -1,4 +1,4 @@
-var summary = require('./index.js');
+var summary = require('./lib/summarizer.js');
 
 summary.summarize('https://en.wikipedia.org/wiki/Nueral_networks', function(title, summary, failure) {
 	if (failure) {
